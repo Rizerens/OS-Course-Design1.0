@@ -4,9 +4,11 @@ import com.Asuka.memory.Address;
 import lombok.*;
 
 /**
- * 进程类，用于表示操作系统中的进程。
+ * 进程类，用于表示进程。
+ *  @author Asuka
+ *  @since  1.0
  */
-@Setter
+
 @Getter
 @AllArgsConstructor
 public class Process {

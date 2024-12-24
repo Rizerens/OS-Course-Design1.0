@@ -25,4 +25,13 @@ public class Memory {
         return pcbList;
     }
 
+    public PCB getPCB(int pid) {
+        for (PCB pcb : this.pcbList) {
+            if (pcb.getId() == pid) {
+                return pcb;
+            }
+        }
+        return null;
+    }
+
 }
